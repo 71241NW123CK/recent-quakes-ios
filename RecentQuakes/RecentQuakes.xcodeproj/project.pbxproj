@@ -12,6 +12,19 @@
 		BD16C35723DFA64B009247D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD16C35523DFA64B009247D8 /* Main.storyboard */; };
 		BD16C35923DFA64C009247D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD16C35823DFA64C009247D8 /* Assets.xcassets */; };
 		BD16C35C23DFA64C009247D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD16C35A23DFA64C009247D8 /* LaunchScreen.storyboard */; };
+		BD16C36723DFA79A009247D8 /* UsgsEarthquake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C36623DFA79A009247D8 /* UsgsEarthquake.swift */; };
+		BD16C36923DFA7DC009247D8 /* UsgsApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C36823DFA7DC009247D8 /* UsgsApiClient.swift */; };
+		BD16C36B23DFA886009247D8 /* UsgsEarthquake+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C36A23DFA886009247D8 /* UsgsEarthquake+MKAnnotation.swift */; };
+		BD16C36D23DFA8D1009247D8 /* UsgsEarthquakeAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C36C23DFA8D1009247D8 /* UsgsEarthquakeAnnotationView.swift */; };
+		BD16C36F23DFA92E009247D8 /* UsgsEarthquakeClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C36E23DFA92E009247D8 /* UsgsEarthquakeClusterAnnotationView.swift */; };
+		BD16C37123DFACC6009247D8 /* ViewController+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37023DFACC6009247D8 /* ViewController+Constants.swift */; };
+		BD16C37323DFAD34009247D8 /* ViewController+Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37223DFAD34009247D8 /* ViewController+Enumerations.swift */; };
+		BD16C37523DFADD9009247D8 /* ViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37423DFADD9009247D8 /* ViewController+UI.swift */; };
+		BD16C37723DFAE4D009247D8 /* ViewController+CLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37623DFAE4D009247D8 /* ViewController+CLLocationManagerDelegate.swift */; };
+		BD16C37B23DFB494009247D8 /* ViewController+FSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37A23DFB494009247D8 /* ViewController+FSM.swift */; };
+		BD16C37D23DFB516009247D8 /* ViewController+MKMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37C23DFB516009247D8 /* ViewController+MKMapViewDelegate.swift */; };
+		BD16C37F23DFB58D009247D8 /* ViewController+UITableViewDataSource+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16C37E23DFB58D009247D8 /* ViewController+UITableViewDataSource+UITableViewDelegate.swift */; };
+		BD16C38223DFB867009247D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD16C38123DFB867009247D8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		BD16C35823DFA64C009247D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD16C35B23DFA64C009247D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD16C35D23DFA64C009247D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD16C36623DFA79A009247D8 /* UsgsEarthquake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsgsEarthquake.swift; sourceTree = "<group>"; };
+		BD16C36823DFA7DC009247D8 /* UsgsApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsgsApiClient.swift; sourceTree = "<group>"; };
+		BD16C36A23DFA886009247D8 /* UsgsEarthquake+MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsgsEarthquake+MKAnnotation.swift"; sourceTree = "<group>"; };
+		BD16C36C23DFA8D1009247D8 /* UsgsEarthquakeAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsgsEarthquakeAnnotationView.swift; sourceTree = "<group>"; };
+		BD16C36E23DFA92E009247D8 /* UsgsEarthquakeClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsgsEarthquakeClusterAnnotationView.swift; sourceTree = "<group>"; };
+		BD16C37023DFACC6009247D8 /* ViewController+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Constants.swift"; sourceTree = "<group>"; };
+		BD16C37223DFAD34009247D8 /* ViewController+Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Enumerations.swift"; sourceTree = "<group>"; };
+		BD16C37423DFADD9009247D8 /* ViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UI.swift"; sourceTree = "<group>"; };
+		BD16C37623DFAE4D009247D8 /* ViewController+CLLocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CLLocationManagerDelegate.swift"; sourceTree = "<group>"; };
+		BD16C37A23DFB494009247D8 /* ViewController+FSM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+FSM.swift"; sourceTree = "<group>"; };
+		BD16C37C23DFB516009247D8 /* ViewController+MKMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MKMapViewDelegate.swift"; sourceTree = "<group>"; };
+		BD16C37E23DFB58D009247D8 /* ViewController+UITableViewDataSource+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UITableViewDataSource+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		BD16C38123DFB867009247D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD16C38223DFB867009247D8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +67,7 @@
 			children = (
 				BD16C34E23DFA64B009247D8 /* RecentQuakes */,
 				BD16C34D23DFA64B009247D8 /* Products */,
+				BD16C38023DFB867009247D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,58 @@
 		BD16C34E23DFA64B009247D8 /* RecentQuakes */ = {
 			isa = PBXGroup;
 			children = (
+				BD16C36523DFA76A009247D8 /* Map */,
+				BD16C36323DFA726009247D8 /* Model */,
+				BD16C36423DFA745009247D8 /* Network */,
 				BD16C34F23DFA64B009247D8 /* AppDelegate.swift */,
 				BD16C35323DFA64B009247D8 /* ViewController.swift */,
+				BD16C37023DFACC6009247D8 /* ViewController+Constants.swift */,
+				BD16C37623DFAE4D009247D8 /* ViewController+CLLocationManagerDelegate.swift */,
+				BD16C37223DFAD34009247D8 /* ViewController+Enumerations.swift */,
+				BD16C37A23DFB494009247D8 /* ViewController+FSM.swift */,
+				BD16C37C23DFB516009247D8 /* ViewController+MKMapViewDelegate.swift */,
+				BD16C37423DFADD9009247D8 /* ViewController+UI.swift */,
+				BD16C37E23DFB58D009247D8 /* ViewController+UITableViewDataSource+UITableViewDelegate.swift */,
 				BD16C35523DFA64B009247D8 /* Main.storyboard */,
 				BD16C35823DFA64C009247D8 /* Assets.xcassets */,
 				BD16C35A23DFA64C009247D8 /* LaunchScreen.storyboard */,
 				BD16C35D23DFA64C009247D8 /* Info.plist */,
 			);
 			path = RecentQuakes;
+			sourceTree = "<group>";
+		};
+		BD16C36323DFA726009247D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD16C36623DFA79A009247D8 /* UsgsEarthquake.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD16C36423DFA745009247D8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BD16C36823DFA7DC009247D8 /* UsgsApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BD16C36523DFA76A009247D8 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BD16C36A23DFA886009247D8 /* UsgsEarthquake+MKAnnotation.swift */,
+				BD16C36C23DFA8D1009247D8 /* UsgsEarthquakeAnnotationView.swift */,
+				BD16C36E23DFA92E009247D8 /* UsgsEarthquakeClusterAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		BD16C38023DFB867009247D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD16C38123DFB867009247D8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD16C37723DFAE4D009247D8 /* ViewController+CLLocationManagerDelegate.swift in Sources */,
+				BD16C37123DFACC6009247D8 /* ViewController+Constants.swift in Sources */,
+				BD16C36F23DFA92E009247D8 /* UsgsEarthquakeClusterAnnotationView.swift in Sources */,
+				BD16C37B23DFB494009247D8 /* ViewController+FSM.swift in Sources */,
+				BD16C37D23DFB516009247D8 /* ViewController+MKMapViewDelegate.swift in Sources */,
 				BD16C35423DFA64B009247D8 /* ViewController.swift in Sources */,
+				BD16C36923DFA7DC009247D8 /* UsgsApiClient.swift in Sources */,
+				BD16C36D23DFA8D1009247D8 /* UsgsEarthquakeAnnotationView.swift in Sources */,
+				BD16C37323DFAD34009247D8 /* ViewController+Enumerations.swift in Sources */,
+				BD16C36B23DFA886009247D8 /* UsgsEarthquake+MKAnnotation.swift in Sources */,
+				BD16C37F23DFB58D009247D8 /* ViewController+UITableViewDataSource+UITableViewDelegate.swift in Sources */,
+				BD16C36723DFA79A009247D8 /* UsgsEarthquake.swift in Sources */,
+				BD16C37523DFADD9009247D8 /* ViewController+UI.swift in Sources */,
 				BD16C35023DFA64B009247D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
