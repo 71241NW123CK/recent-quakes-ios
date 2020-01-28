@@ -14,7 +14,7 @@ struct UsgsApiClient {
         case success(usgsEarthquakeList: [UsgsEarthquake])
     }
     
-    static let minimumMagnitude = 2.0
+    static let minimumMagnitude = 3.0
     static let url = URL(string: "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=magnitude&minmagnitude=\(minimumMagnitude)")!
 
     static func getUsgsEarthquakeList(completion: @escaping (GetUsgsEarthquakeListResult) -> ()) {
